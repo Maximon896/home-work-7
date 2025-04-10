@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Display і Box-sizing</title>
+  <style>
+    .block { display: block; background: lightblue; margin: 10px; }
+    .inline { display: inline; background: lightgreen; margin: 10px; }
+    .flex { display: flex; background: lightgray; margin: 10px; gap: 10px; }
+    .box-sizing {
+      width: 200px;
+      padding: 20px;
+      border: 5px solid black;
+      box-sizing: border-box;
+      background: lavender;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="block">display: block</div>
+  <span class="inline">display: inline</span>
+  <div class="flex">
+    <div>flex item 1</div>
+    <div>flex item 2</div>
+  </div>
+  <div class="box-sizing">box-sizing: border-box</div>
+</body>
+</html>
